@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#commentsContainer{
+    border: solid 5px black;
+    height: 70vmin;
+    width: 60vmin;
+}
+
+#comment{
+    width: 60vmin;
+    height: 10vmin;
+    margin-top: 1em;
+}
+
+#submitBtn {
+    margin-top: 1em;
+    width: 10em;
+    height: 3em;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+.comment {
+    text-align: center;
+    border: solid 2px black;
+    margin: 1em auto 1em auto;
+}
+
+.deleteBtn {
+    margin-top: 1em;
+    width: 10em;
+    height: 3em;
+    border-radius: 30px;
+    font-size: 15px;
+
+}
